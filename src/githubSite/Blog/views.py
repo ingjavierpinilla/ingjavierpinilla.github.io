@@ -15,3 +15,7 @@ class ArticleListView(ListView):
     template_name = 'articles/list.html'
     queryset = Article.objects.all()
 
+class ArticleDetailView(DetailView):
+    template_name = 'articles/detail.html'
+    queryset = Article.objects.all()
+
