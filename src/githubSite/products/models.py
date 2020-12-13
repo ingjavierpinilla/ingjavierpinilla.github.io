@@ -15,3 +15,6 @@ class Product(models.Model):
     price = models.DecimalField(decimal_places=2, max_digits=20, default = True)
     def __str__(self):
         return self.title
+
+    def get_absolute_url(self):
+        return f"/products/{self.id}/"
