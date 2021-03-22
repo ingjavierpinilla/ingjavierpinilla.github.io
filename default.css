@@ -125,6 +125,10 @@ h6 {
   align-items: center;
 }
 
+#navigation a {
+  color: var(--mainColor);
+}
+
 #navigation {
   margin: 0;
   padding: 10px;
