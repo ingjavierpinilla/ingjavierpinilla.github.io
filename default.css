@@ -363,10 +363,12 @@ h6 {
 }
 .post-preview .face {
   position: absolute;
+  padding-left: 1em;
+  padding-right: 1em;
 
   top: 0;
   left: 0;
-  width: 100%;
+  width: 90%;
   height: 100%;
   transition: 0.5s;
 }
@@ -374,8 +376,6 @@ h6 {
   transform: translateY(-100%) rotateX(90deg);
 }
 .post-preview .face.face2 {
-  padding-left: inherit;
-  padding-right: inherit;
   background: var(--mainColor);
   align-items: center;
   transform-origin: top;
